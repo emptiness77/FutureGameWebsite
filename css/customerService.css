@@ -1,0 +1,209 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-decoration:none;
+	font-weight:normal;
+	font-size:14px;
+	font-family:"宋体","黑体","微软雅黑";
+	color:#666;
+	}
+body{
+	background-color:#f2f2f2;
+	}
+/*--------head-------------------*/
+.navCon{
+	min-width:1200px;
+	background-color:#fff;
+	Opacity:0.9;
+	filter:alpha(opacity=70);
+	box-shadow:0 1px 1px 0 #c2c0c0;  /*阴影：水平 垂直 距离 大小 颜色 内部（inset）*/
+	}
+	.navBox{
+		height:80px;
+		width:1200px;
+		margin:0 auto;
+		overflow:hidden;
+		}
+	.navBox>li{
+		float:right;
+		width:auto;
+		height:80px;
+		padding:0 47px;
+		line-height:80px;
+		text-align:center;
+		}
+	.navBox>.aboutUsWord{
+		margin-right:40px;
+		}
+	.navBox>.foldableMenu{
+		padding:0;
+		}
+		.navBox>.foldableMenu>a{
+			display:block;
+			width:100px;
+			height:100px;
+			background:url(../images/foldableMenuIcon.jpg) center no-repeat;
+			}
+		.indexLogo{
+			display:block;
+			width:180px;
+			height:80px;
+			background:url(../images/indexLogo.png) center no-repeat;
+			}
+	.navBox>.active{
+		height:80px;
+		padding:0 36px;
+		line-height:68px;
+		}
+		.active>a>div{
+			width:50px;
+			height:6px;
+			background-color:#e60000;
+			}
+/*----------------content-------------------*/
+.contentCon_customerService{
+	width:1200px;
+	margin:0 auto;
+	margin-bottom:100px;
+	min-width:1200px;
+	}
+	.gameServiceText{
+		overflow:hidden;
+		width:164px;
+		margin:0 auto;
+		margin-top:100px;
+		}
+	.gameServiceText>span{
+		float:left;
+		font-size:72px;
+		color:#d62424;
+		font-family:"Comic Sans MS", Arial;
+		overflow:hidden;
+		}
+		.gameServiceText>span>h1{
+			margin-top:10px;
+			font-size:24px;
+			font-family:"宋体";
+			}
+		.gameServiceText>span>p{
+			font-size:16px;
+			font-family:"Comic Sans MS", Arial;
+			}
+	.gameServiceList{
+		height:600px;
+		background-color:#404040;
+		margin-top:40px;
+		overflow:hidden;
+		}
+	.gameServiceList>div{
+		float:left;
+		overflow:hidden;
+		width:300px;
+		height:600px;
+		}
+		.gameServiceList>.list01{
+			}
+		.gameServiceList>div>h1{
+			font-size:18px;
+			color:#e5e5e5;
+			text-align:center;
+			height:140px;
+			line-height:140px;
+			}
+		.gameServiceList>div>ul,.gameServiceList>div>ol{
+			float:left;
+			}
+			.gameServiceList>div>ul>li{
+				width:160px;
+				line-height:40px;
+				text-align:center;
+				font-size:16px;
+				color:#ccc;
+				}
+			.gameServiceList>div>ol>li{
+				width:140px;
+				line-height:40px;
+				text-align:left;
+				font-size:16px;
+				color:#ccc;
+				}
+			.gameServiceList>div>ul>li>a{
+				width:150px;
+				line-height:20px;
+				font-size:16px;
+				color:#ccc;
+				}
+	.selfServiceContent{
+		overflow:hidden;
+		height:200px;
+		margin-top:40px;
+		}
+		.selfService01{
+			width:300px;
+			height:200px;
+			float:left;
+			background:url(../images/self-service01.jpg) center no-repeat;
+			}
+		.selfService02{
+			width:300px;
+			height:200px;
+			float:left;
+			background:url(../images/self-service02.jpg) center no-repeat;
+			}
+		.selfService03{
+			width:300px;
+			height:200px;
+			float:left;
+			background:url(../images/self-service03.jpg) center no-repeat;
+			}
+		.selfService04{
+			width:300px;
+			height:200px;
+			float:left;
+			background:url(../images/self-service04.jpg) center no-repeat;
+			}
+/*--------footer-------------------*/
+.footerCon{
+	min-width:1200px;
+	height:300px;
+	background-color:#282b2d;
+	}
+.footerCon>div{
+	margin:0 auto;
+	}
+/*-----footerBox-----*/
+.footerCon>.footerBox{
+	width:1000px;
+	height:200px;
+	overflow:hidden;
+	padding:0 100px;
+	}
+	.footerBox>ul{
+		width:200px;
+		float:left;
+		text-align:center;
+		color:#f2f2f2;
+		font-size:16px;
+		padding-top:30px;
+		}
+		.footerBox>ul>li{
+			margin-top:20px;
+			color:#ccc;
+			}
+		.futureGameWord{
+			color:#d62424;
+			}
+/*---footerCopyright---*/
+.footerCon>.footerCopyright{
+	width:600px;
+	height:100px;
+	border-top:1px solid #999;
+	text-align:center;
+	}
+
+
+
+

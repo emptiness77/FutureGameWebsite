@@ -1,0 +1,638 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*-----------------------------首页--------------------------------*/
+/*--------head--------*/
+.headCon{
+	min-width:1200px;
+	width:100%;
+	height:830px;
+	background:url(../images/indexBanner01.jpg) center no-repeat;
+	border-bottom:1px solid #999;
+	position:relative;
+	}
+	.headCon>.navCon{
+		position:absolute;
+		top:0;
+		left:0;
+		z-index:99;
+		height:80px;
+	}
+.sliderCon{ width:100%; height:830px; position:relative; min-width:1200px;}
+.sliderCon>li{ width:100%; height:830px; position:absolute; top:0; left:0;}
+.sliderCon>.banner01{ background:url(../images/indexBanner01.jpg) center no-repeat;}
+.sliderCon>.banner02{ background:url(../images/indexBanner02.jpg) center no-repeat;}
+.sliderCon>.banner03{ background:url(../images/indexBanner03.jpg) center no-repeat;}
+	.headCon>button{
+		background-color:#d62424;
+		width:100px;
+		height:40px;
+		border:none;
+		border-radius:10px;
+		-moz-border-radius:10px;
+		-o-border-radius:10px;
+		-webkit-border-radius:10px;
+		color:#fff;
+		cursor:pointer;
+		position:absolute;
+		top:700px;
+		left:10%;
+		}
+	.headCon>.potsBox{
+		width:20px;
+		position:absolute;
+		top:45%;
+		right:10%;
+		}
+		.headCon>.potsBox>#pot01{
+			width:20px;
+			height:24px;
+			background:url(../images/bannerPots.png) 0 0 no-repeat;
+			}
+		.headCon>.potsBox>#pot02{
+			margin-top:80px;
+			width:20px;
+			height:24px;
+			background:url(../images/bannerPots.png) 0 -80px no-repeat;
+			}
+		.headCon>.potsBox>#pot03{
+			margin-top:80px;
+			width:20px;
+			height:24px;
+			background:url(../images/bannerPots.png) 0 -160px no-repeat;
+			}
+/*--------content-------*/
+.contentCon_index{
+	min-width:1200px;
+	margin-top:100px;
+	margin-bottom:100px;
+	}
+	.contentCon_index>div{
+		width:1200px;
+		margin:0 auto;
+		overflow:hidden;
+		}
+		.contentCon_index>div>div{
+			width:280px;
+			height:280px;
+			background-color:#fff;
+			float:left;
+			margin-left:27px;
+			}
+			.contentCon_index>div>div>p{
+				text-align:center;
+				line-height:60px;
+				font-size:24px;
+				font-family:"Comic Sans MS", Arial;
+				color:#000;
+				}
+			.contentCon_index>div>div>button{
+				width:100px;
+				height:30px;
+				border:1px solid #bfbfbf;
+				border-radius:10px;
+				margin-left:170px;
+				background-color:#fff;
+				text-align:center;
+				line-height:30px;
+				color:#999;
+				cursor:pointer;
+				}
+			.contentCon_index>div>div>button:hover{
+				background-color:#d62424;
+				border:none;
+				color:#fff;
+				}
+		.contentCon_index>div>.game01{
+			margin-left:0;
+			}
+		.contentCon_index>div>.game03{
+			margin-left:26px;
+			}
+
+
+/*-----------------------------客服----------------------------*/
+/*--------content--------*/
+.contentCon_customerService{
+	width:1200px;
+	margin:0 auto;
+	margin-bottom:100px;
+	min-width:1200px;
+	overflow:hidden;
+	}
+	.gameServiceText{
+		overflow:hidden;
+		width:164px;
+		margin:0 auto;
+		margin-top:100px;
+		}
+	.gameServiceText>span{
+		float:left;
+		font-size:72px;
+		color:#d62424;
+		font-family:"Comic Sans MS", Arial;
+		line-height:60px;
+		}
+		.gameServiceText>span>h1{
+			margin-top:10px;
+			font-size:24px;
+			font-family:"宋体";
+			line-height:normal;
+			}
+		.gameServiceText>span>p{
+			font-size:16px;
+			font-family:"Comic Sans MS", Arial;
+			line-height:normal;
+			}
+	.gameServiceList{
+		height:600px;
+		background-color:#404040;
+		margin-top:40px;
+		overflow:hidden;
+		}
+		.gameServiceList a:hover{ color:#ededed;}
+	.gameServiceList>div{
+		float:left;
+		overflow:hidden;
+		width:300px;
+		height:600px;
+		}
+		.gameServiceList>div>h1{
+			font-size:18px;
+			color:#e5e5e5;
+			text-align:center;
+			height:140px;
+			line-height:140px;
+			}
+		.gameServiceList>div>ul,.gameServiceList>div>ol{
+			float:left;
+			}
+			.gameServiceList>div>ul>li{
+				width:160px;
+				line-height:40px;
+				height:40px;
+				text-align:center;
+				font-size:16px;
+				color:#ccc;
+				}
+			.gameServiceList>div>ol>li{
+				width:140px;
+				line-height:40px;
+				height:40px;
+				text-align:left;
+				font-size:16px;
+				color:#ccc;
+				}
+			.gameServiceList>div>ul>li>a{
+				width:150px;
+				font-size:16px;
+				color:#ccc;
+				}
+	.selfServiceContent{
+		overflow:hidden;
+		height:200px;
+		margin-top:40px;
+		}
+		.selfServiceContent>div{
+			width:130px;
+			height:200px;
+			float:left;
+			padding-left:170px;
+			}
+			.selfServiceContent>div a:hover{ color:#333;}
+		.selfService01{
+			background:url(../images/self-service01.jpg) center no-repeat;
+			}
+			.selfServiceContent>.selfService01>h4{ margin-top:64px;}
+			.selfServiceContent>.selfService01>h5{ margin-top:44px;}
+		.selfService02{
+			background:url(../images/self-service02.jpg) center no-repeat;
+			}
+			.selfServiceContent>.selfService02>h4{ margin-top:60px;}
+			.selfServiceContent>.selfService02>h5{ margin-top:20px;}
+		.selfService03{
+			background:url(../images/self-service03.jpg) center no-repeat;
+			}
+			.selfServiceContent>.selfService03>h5{ margin-top:94px;}
+		.selfService04{
+			background:url(../images/self-service04.jpg) center no-repeat;
+			}
+			.selfServiceContent>.selfService04>h4{ margin-top:64px;}
+			.selfServiceContent>.selfService04>h5{ margin-top:44px;}
+
+
+/*--------------------------论坛---------------------------*/
+/*--------content---------*/
+.contentCon_folum{
+	width:1200px;
+	margin:0 auto;
+	min-width:1200px;
+	margin-top:100px;
+	margin-bottom:100px;
+	overflow:hidden;
+	}
+	.contentCon_folum a:hover{ color:#d62400;}
+	.contentCon_folum>h1{
+		font-size:24px;
+		font-family:"宋体";
+		float:left;
+		}
+	.contentCon_folum>h2{
+		font-size:18px;
+		color:#ccc;
+		font-family:"宋体";
+		margin-top:4px;
+		margin-left:4px;
+		float:left;
+		}
+	.contentCon_folum>h3{
+		font-size:18px;
+		color:#999;
+		font-family:"Comic Sans MS", Arial;
+		margin-top:2px;
+		margin-left:4px;
+		float:left;
+		}
+	.contentCon_folum>.largeOnlineGame{
+		margin-top:40px;
+		background-color:#eae5e3;
+		padding:20px 0 0 80px;
+		width:1120px;
+		height:230px;
+		font-size:18px;
+		font-family:"宋体";
+		}
+		.contentCon_folum>.largeOnlineGame>ul{
+			overflow:hidden;
+			}
+		.contentCon_folum>.largeOnlineGame>ul>li{
+			float:left;
+			margin-left:80px;
+			width:100px;
+			height:100px;
+			text-align:center;
+			line-height:24px;
+			}
+			.contentCon_folum>.largeOnlineGame>ul>.largeOnlineGame01,.contentCon_folum>.largeOnlineGame>ul>.largeOnlineGame06{
+				margin-left:150px;
+				}
+	.contentCon_folum>.mobileGame{
+		background-color:#dcdddd;
+		padding:20px 0 0 80px;
+		width:1120px;
+		height:230px;
+		font-size:18px;
+		font-family:"宋体";
+		}
+		.contentCon_folum>.mobileGame>ul{
+			overflow:hidden;
+			}
+		.contentCon_folum>.mobileGame>ul>li{
+			float:left;
+			margin-left:80px;
+			width:100px;
+			height:100px;
+			text-align:center;
+			line-height:24px;
+			}
+			.contentCon_folum>.mobileGame>ul>.mobileGame01,.contentCon_folum>.mobileGame>ul>.mobileGame06{
+				margin-left:150px;
+				}
+	.contentCon_folum>.webGame{
+		background-color:#e5e4e6;
+		padding:20px 0 0 80px;
+		width:1120px;
+		height:180px;
+		font-size:18px;
+		font-family:"宋体";
+		}
+		.contentCon_folum>.webGame>ul{
+			overflow:hidden;
+			}
+		.contentCon_folum>.webGame>ul>li{
+			float:left;
+			margin-top:20px;
+			margin-left:80px;
+			width:100px;
+			height:100px;
+			text-align:center;
+			line-height:24px;
+			}
+			.contentCon_folum>.webGame>ul>.webGame01{
+				margin-left:150px;
+				}
+
+
+/*-------------------------关于我们---------------------------*/
+.contentCon_aboutUs{ height:530px; background:url(../images/aboutUsImg.jpg) center no-repeat;}
+.contentBox_aboutUs{ width:840px; margin:0 auto; padding-left:134px; padding-right:226px; overflow:hidden;}
+.contentBox_aboutUs>h1{ margin-left:4px; margin-top:76px; font-size:32px; color:#fff; font-weight:bolder; text-shadow:0 0 10px #ccc; font-family:"微软雅黑", "宋体";}
+.contentBox_aboutUs>div{ width:200px; height:6px; background-color:#d62424; margin-top:6px;}
+.contentBox_aboutUs>p{ line-height:24px; color:#333; margin-top:28px;}
+.contentBox_aboutUs>.aboutUs_p01{ margin-top:56px;}
+
+
+/*-------------------------网游---------------------------*/
+/*--------head--------*/
+.headCon_onlineGame{
+	min-width:1200px;
+	width:100%;
+	height:830px;
+	background:url(../images/onlineGameBanner.jpg) center no-repeat;
+	border-bottom:1px solid #999;
+	position:relative;
+	}
+	.headCon_onlineGame>.potsBox{
+		width:20px;
+		position:absolute;
+		top:45%;
+		right:10%;
+		z-index:2;
+		}
+		.headCon_onlineGame>.potsBox>#pot01{
+			width:20px;
+			height:24px;
+			background:url(../images/bannerPots.png) 0 0 no-repeat;
+			}
+		.headCon_onlineGame>.potsBox>#pot02{
+			margin-top:80px;
+			width:20px;
+			height:24px;
+			background:url(../images/bannerPots.png) 0 -80px no-repeat;
+			}
+		.headCon_onlineGame>.potsBox>#pot03{
+			margin-top:80px;
+			width:20px;
+			height:24px;
+			background:url(../images/bannerPots.png) 0 -160px no-repeat;
+			}
+/*--------content-------*/
+.onlineGameCon{ width:1080px; margin:100px auto; overflow:hidden;}
+.onlineGameCon .hotGames:after{ content:url(../images/hotIcon.png);}
+.onlineGameCon .newGames:after{ content:url(../images/newIcon.png);}
+.onlineGameCon>ol{ float:left; margin-left:40px; margin-right:14px;}
+.onlineGameCon>ul{ float:left;}
+.onlineGameCon>div{ float:left;}
+.onlineGameCon>ol>li{ width:14px; height:20px; background:url(../images/gameTriangle.png) center no-repeat; margin-top:150px;}
+.onlineGameCon>ol>.firstTriangle{ margin-top:40px;}
+.onlineGameCon>ol>.secondTriangle{ margin-top:210px;}
+.onlineGameCon>ol>.thirdTriangle{ margin-top:380px;}
+.onlineGameCon>ul>li{ width:100px; height:100px; cursor:pointer;}
+.onlineGameCon>ul>.onlineGameBtn01{ background:url(../images/onlineGameClassesGray.png) 0 0 no-repeat;}
+.onlineGameCon>ul>.onlineGameBtn02{ background:url(../images/onlineGameClassesGray.png) 0 -172px no-repeat; margin-top:72px;}
+.onlineGameCon>ul>.onlineGameBtn03{ background:url(../images/onlineGameClassesGray.png) 0 -342px no-repeat; margin-top:72px;}
+.onlineGameCon>ul>.onlineGameBtn01:hover{ background:url(../images/onlineGameClassesRed.png) 0 0 no-repeat;}
+.onlineGameCon>ul>.onlineGameBtn02:hover{ background:url(../images/onlineGameClassesRed.png) 0 -172px no-repeat; margin-top:72px;}
+.onlineGameCon>ul>.onlineGameBtn03:hover{ background:url(../images/onlineGameClassesRed.png) 0 -342px no-repeat; margin-top:72px;}
+
+.onlineGameCon>.largeOnlineGameCon{ margin-top:20px;}
+.onlineGameCon>.largeOnlineGameCon a{ margin-right:4px; font-size:12px; color:#424242;}
+.onlineGameCon>.largeOnlineGameCon a:hover{ color:#ff6500;}
+.onlineGameCon>.largeOnlineGameCon>.largeOnlineGameContent01{ margin-right:5px; width:160px; float:left;}
+	.largeOnlineGameContent01>div{ height:100px; background:url(../images/onlineGameImg01.jpg) center no-repeat;}
+	.largeOnlineGameContent01>ul{ background-color:#f2f2f2; opacity:0.94; filter:alpha(opacity=94); height:280px; margin-top:4px; text-align:center; line-height:40px; padding-top:20px;}
+.onlineGameCon>.largeOnlineGameCon>.largeOnlineGameContent02{ margin-right:5px; width:160px; float:left;}
+	.largeOnlineGameContent02>div{ height:100px; background:url(../images/onlineGameImg02.jpg) center no-repeat;}
+	.largeOnlineGameContent02>ul{ background-color:#f2f2f2; opacity:0.94; filter:alpha(opacity=94); height:280px; margin-top:4px; text-align:center; line-height:40px; padding-top:20px;}
+
+.onlineGameCon>.webGameCon{ margin-top:20px;}
+.onlineGameCon>.webGameCon a{ margin-right:4px; font-size:12px; color:#424242;}
+.onlineGameCon>.webGameCon a:hover{ color:#ff6500;}
+.onlineGameCon>.webGameCon{ margin-right:5px; width:160px; float:left;}
+	.webGameCon>div{ height:100px; background:url(../images/webGameImg.jpg) center no-repeat;}
+	.webGameCon>ul{ background-color:#f2f2f2; opacity:0.94; filter:alpha(opacity=94); height:280px; margin-top:4px; text-align:center; line-height:40px; padding-top:20px;}
+
+.onlineGameCon>.casualGameCon{ margin-top:20px;}
+.onlineGameCon>.casualGameCon a{ margin-right:4px; font-size:12px; color:#424242;}
+.onlineGameCon>.casualGameCon a:hover{ color:#ff6500;}
+.onlineGameCon>.casualGameCon{ margin-right:5px; width:160px; float:left;}
+	.casualGameCon>div{ height:100px; background:url(../images/casualGameImg.jpg) center no-repeat;}
+	.casualGameCon>ul{ background-color:#f2f2f2; opacity:0.94; filter:alpha(opacity=94); height:280px; margin-top:4px; text-align:center; line-height:40px; padding-top:20px;}
+
+#largeOnlineGameCon{ display:none;}
+#webGameCon{ display:none;}
+#casualGameCon{ display:none;}
+#firstTriangle{ display:none;}
+#secondTriangle{ display:none;}
+#thirdTriangle{ display:none;}
+
+
+/*-------------------------手游---------------------------*/
+/*--------head--------*/
+.headCon_mobileGame{
+	min-width:1200px;
+	width:100%;
+	height:830px;
+	background:url(../images/mobileGameBanner.jpg) center no-repeat;
+	border-bottom:1px solid #999;
+	position:relative;
+	}
+	.headCon_mobileGame>.potsBox{
+		width:20px;
+		position:absolute;
+		top:45%;
+		right:10%;
+		}
+		.headCon_mobileGame>.potsBox>#pot01{
+			width:20px;
+			height:24px;
+			background:url(../images/bannerPots.png) 0 0 no-repeat;
+			}
+		.headCon_mobileGame>.potsBox>#pot02{
+			margin-top:80px;
+			width:20px;
+			height:24px;
+			background:url(../images/bannerPots.png) 0 -80px no-repeat;
+			}
+		.headCon_mobileGame>.potsBox>#pot03{
+			margin-top:80px;
+			width:20px;
+			height:24px;
+			background:url(../images/bannerPots.png) 0 -160px no-repeat;
+			}
+/*--------content-------*/
+.mobileGameCon{ width:1080px; margin:100px auto; overflow:hidden;}
+.mobileGameCon .hotGames:after{ content:url(../images/hotIcon.png);}
+.mobileGameCon .newGames:after{ content:url(../images/newIcon.png);}
+.mobileGameCon>.mobileGameBtn{ float:left; width:100px; height:100px; background:url(../images/mobileGameClassesGray.png) 0 0 no-repeat; margin-top:78px;}
+.mobileGameCon>.mobileGameBtn:hover{ background:url(../images/mobileGameClassesRed.png) 0 0 no-repeat;}
+.mobileGameCon>.firstTriangle{ float:left; width:14px; height:20px; background:url(../images/gameTriangle.png) center no-repeat; margin-top:118px; margin-left:40px; margin-right:14px;}
+
+.mobileGameCon>.mobileGameContent{ margin-top:24px; float:left;}
+.mobileGameCon>.mobileGameContent a{ margin-right:4px; font-size:12px; color:#424242;}
+.mobileGameCon>.mobileGameContent a:hover{ color:#ff6500;}
+.mobileGameCon>.mobileGameContent>.mobileGameContent01{ margin-right:5px; width:160px; float:left;}
+	.mobileGameContent01>div{ height:100px; background:url(../images/mobileGameImg01.jpg) center no-repeat;}
+	.mobileGameContent01>ul{ background-color:#f2f2f2; opacity:0.94; filter:alpha(opacity=94); height:280px; margin-top:4px; text-align:center; line-height:40px; padding-top:20px;}
+.mobileGameCon>.mobileGameContent>.mobileGameContent02{ margin-right:5px; width:160px; float:left;}
+	.mobileGameContent02>div{ height:100px; background:url(../images/mobileGameImg02.jpg) center no-repeat;}
+	.mobileGameContent02>ul{ background-color:#f2f2f2; opacity:0.94; filter:alpha(opacity=94); height:280px; margin-top:4px; text-align:center; line-height:40px; padding-top:20px;}
+
+#mobileGameContent{ display:none;}
+#firstTriangle_mobile{ display:none;}
+
+
+/*-------------------------商城---------------------------*/
+/*--------head--------*/
+.headCon_store{
+	min-width:1200px;
+	width:100%;
+	height:830px;
+	background:url(../images/storeBanner.jpg) center no-repeat;
+	border-bottom:1px solid #999;
+	position:relative;
+	}
+/*--------content--------*/
+.contentCon_gameStore{
+	width:1200px;
+	margin:0 auto;
+	min-width:1200px;
+	margin-top:100px;
+	margin-bottom:100px;
+	}
+	.store_onSale>div{
+		overflow:hidden;
+		}
+	.store_onSale>div>img{ float:left;}
+	.store_onSale>div>h1{
+		font-size:24px;
+		font-family:"宋体";
+		float:left;
+		margin-top:12px;
+		margin-left:10px;
+		}
+	.store_onSale>div>h2{
+		font-size:18px;
+		color:#ccc;
+		font-family:"宋体";
+		margin-top:16px;
+		margin-left:10px;
+		float:left;
+		}
+	.store_onSale>div>h3{
+		font-size:18px;
+		color:#999;
+		font-family:"Comic Sans MS", Arial;
+		margin-top:12px;
+		margin-left:10px;
+		float:left;
+		}
+.store_onSaleContent{ overflow:hidden; margin-top:20px;}
+.store_onSaleContent>li{ width:298px; height:398px; border:1px solid #ccc; background-color:#fff; float:left;}
+.store_onSaleContent>li>ol{ overflow:hidden;}
+.store_onSaleContent>li>ol>div{ width:99px; height:99px; float:left; background:url(../images/onSale_7zhe.png) center no-repeat;}
+.store_onSaleContent>li>ol>li{ float:left; margin-left:14px; width:120px;}
+.store_onSaleContent>li>ol>li>h3{ text-align:center; line-height:40px;}
+.store_onSaleContent>li>ol>li>h3>span{ color:#fe2424; margin:0 8px;}
+.store_onSaleContent>li>ol>li>ul{ overflow:hidden;}
+.store_onSaleContent>li>ol>li>ul>li{ float:left; width:26px; height:32px; background-color:#f90; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px; -o-border-radius:4px; color:#fff; text-align:center; line-height:
+32px; font-size:24px; font-family:"Comic Sans MS", Arial;}
+.store_onSaleContent>li>ol>li>ul>.store_onSaleNum{ margin-left:1px;}
+.store_onSaleContent>li>ol>li>ul>h4{ float:left; color:#f90; line-height:26px; font-size:24px;}
+.store_onSaleContent>li>a{ display:block; height:220px; background:url(../images/onSaleImg01.jpg) center no-repeat;}
+.store_onSaleContent>li>h1{ line-height:36px; text-align:center;}
+.store_onSaleContent>li>h1>a:hover{ color:#f30;}
+.store_onSaleContent>li>h2{ text-align:center; color:#f50;}
+.store_onSaleContent>.store_onSale02>a{ background:url(../images/onSaleImg02.jpg) center no-repeat;}
+.store_onSaleContent>.store_onSale03>a{ background:url(../images/onSaleImg03.jpg) center no-repeat;}
+.store_onSaleContent>.store_onSale04>a{ background:url(../images/onSaleImg04.jpg) center no-repeat;}
+
+	.store_equipment{ margin-top:100px;}
+	.store_equipment>div{
+		overflow:hidden;
+		}
+	.store_equipment>div>img{ float:left;}
+	.store_equipment>div>h1{
+		font-size:24px;
+		font-family:"宋体";
+		float:left;
+		margin-top:12px;
+		margin-left:10px;
+		}
+	.store_equipment>div>h2{
+		font-size:18px;
+		color:#ccc;
+		font-family:"宋体";
+		margin-top:16px;
+		margin-left:10px;
+		float:left;
+		}
+	.store_equipment>div>h3{
+		font-size:18px;
+		color:#999;
+		font-family:"Comic Sans MS", Arial;
+		margin-top:12px;
+		margin-left:10px;
+		float:left;
+		}
+	.store_equipment>div>h4{
+		float:right;
+		margin-top:20px;
+		}
+		.store_equipment>div>h4>a:hover{ color:#333;}
+.store_equipmentContent{ overflow:hidden; margin-top:20px;}
+.store_equipmentContent>li{ float:left; width:218px; height:398px; background-color:#fff; border:1px solid #fff; margin-left:25px; text-align:center;}
+.store_equipmentContent>li:hover{ border:1px solid #999;}
+.store_equipmentContent>.store_equipment01{ margin-left:0;}
+.store_equipmentContent>li>h1{ font-size:20px; margin-bottom:10px; margin-top:20px; font-family:"微软雅黑", "宋体";}
+.store_equipmentContent>li>h2{ color:#f50; font-size:16px; width:120px; margin:0 auto; text-align:right;}
+.store_equipmentContent>li>a{ display:block; width:218px; height:200px; background:url(../images/store_equipmentImg01.jpg) center no-repeat; margin-bottom:40px; margin-top:30px;}
+.store_equipmentContent>.store_equipment02>a{ background:url(../images/store_equipmentImg02.jpg) center no-repeat;}
+.store_equipmentContent>.store_equipment03>a{ background:url(../images/store_equipmentImg03.jpg) center no-repeat;}
+.store_equipmentContent>.store_equipment04>a{ background:url(../images/store_equipmentImg04.jpg) center no-repeat;}
+.store_equipmentContent>.store_equipment05>a{ background:url(../images/store_equipmentImg05.jpg) center no-repeat;}
+.store_equipmentContent>li>button{ cursor:pointer; width:78px; height:28px; border:1px solid #bfbfbf; background-color:#fff;  border-radius:8px; -moz-border-radius:8px; -webkit-border-radius:8px; -o-border-radius:8px; font-size:12px; color:#999;}
+.store_equipmentContent>li>button:hover{ color:#fff; background-color:#d62424;}
+
+
+	.store_zhoubian{ margin-top:100px;}
+	.store_zhoubian>div{
+		overflow:hidden;
+		}
+	.store_zhoubian>div>img{ float:left;}
+	.store_zhoubian>div>h1{
+		font-size:24px;
+		font-family:"宋体";
+		float:left;
+		margin-top:12px;
+		margin-left:10px;
+		}
+	.store_zhoubian>div>h2{
+		font-size:18px;
+		color:#ccc;
+		font-family:"宋体";
+		margin-top:16px;
+		margin-left:10px;
+		float:left;
+		}
+	.store_zhoubian>div>h3{
+		font-size:18px;
+		color:#999;
+		font-family:"Comic Sans MS", Arial;
+		margin-top:12px;
+		margin-left:10px;
+		float:left;
+		}
+	.store_zhoubian>div>h4{
+		float:right;
+		margin-top:20px;
+		}
+		.store_zhoubian>div>h4>a:hover{ color:#333;}
+.store_zhoubianContent{ overflow:hidden; margin-top:20px;}
+.store_zhoubianContent>li{ float:left; width:218px; height:398px; background-color:#fff; border:1px solid #fff; margin-left:25px; text-align:center;}
+.store_zhoubianContent>li:hover{ border:1px solid #999;}
+.store_zhoubianContent>.store_zhoubian01{ margin-left:0;}
+.store_zhoubianContent>li>h1{ font-size:20px; margin-bottom:10px; margin-top:20px; font-family:"微软雅黑", "宋体";}
+.store_zhoubianContent>li>h2{ color:#f50; font-size:16px; width:120px; margin:0 auto; text-align:right;}
+.store_zhoubianContent>li>a{ display:block; width:218px; height:200px; background:url(../images/store_zhoubianImg01.jpg) center no-repeat; margin-bottom:40px; margin-top:30px;}
+.store_zhoubianContent>.store_zhoubian02>a{ background:url(../images/store_zhoubianImg02.jpg) center no-repeat;}
+.store_zhoubianContent>.store_zhoubian03>a{ background:url(../images/store_zhoubianImg03.jpg) center no-repeat;}
+.store_zhoubianContent>.store_zhoubian04>a{ background:url(../images/store_zhoubianImg04.jpg) center no-repeat;}
+.store_zhoubianContent>.store_zhoubian05>a{ background:url(../images/store_zhoubianImg05.jpg) center no-repeat;}
+.store_zhoubianContent>li>button{ cursor:pointer; width:78px; height:28px; border:1px solid #bfbfbf; background-color:#fff;  border-radius:8px; -moz-border-radius:8px; -webkit-border-radius:8px; -o-border-radius:8px; font-size:12px; color:#999;}
+.store_zhoubianContent>li>button:hover{ color:#fff; background-color:#d62424;}
+
+
+
+
+
